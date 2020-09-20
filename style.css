@@ -1,72 +1,72 @@
-/* Global Properties */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 body {
-  background: #1f2235;
-  font-family: "Baloo Tamma 2", cursive;
+    background: #1f2235;
+    font-family: roboto mono, serif, cursive;
 }
 
-/* Main Heading Font */
 .m-heading {
-  font-family: "Roboto Slab", serif;
+    font-family: Roboto Slab, serif, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Navigation */
 .navigation-link {
-  border: 2px solid transparent;
+    border: 2px solid transparent;
 }
 
 .navigation-link:hover {
-  text-decoration: none;
-  border-bottom: 2px solid #f5ba09;
-  transition: 0.5s ease;
+    text-decoration: none;
+    border-bottom: 2px solid #bce409;
+    transition: .5s ease;
 }
 
-/* Main Container height*/
 .main-container {
-  height: 100vh;
+    min-height: 100vm;
 }
 
-/* Aligning items in main row */
 .main_row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Changing Name Font sixe */
 .main_row h1 {
-  font-size: 5rem;
+    font-size: 5rem;
 }
 
-/* Making the main image the size of the screen */
 .main_row img {
-  width: auto;
-  height: 100vh;
+    width: auto;
+    height: 36.9rem;
 }
 
-/* About Section */
-.about {
-  background: #313552;
-  border-radius: 0.5rem;
+#about {
+    background: #313552;
+    border-radius: 0.5rem;
 }
 
 .card {
-  border-bottom: 8px solid #f5ba09;
+    border-bottom: 5px solid rgb(200, 218, 39);
 }
 
-/* Social Media Section */
 #social-media {
-  background: #313552;
+    background: #313552;
 }
 
-/* Add color to Social Media Links */
 .media_link {
-  padding: 1rem;
-  max-width: 15rem;
-  margin-left: 1rem;
-  border: 2px solid #f5ba09;
-  border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
+
+.ssc {
+    text-decoration: none;
 }
